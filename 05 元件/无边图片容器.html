@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无边图片容器</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        .u-img {
+            display: block;
+            position: relative;
+
+            width: 110px;
+            height: 110px;
+        }
+        .u-img img{
+            display: block;
+            width:100%;
+            height:100%;
+        }
+        .u-img-ha img{
+            height:auto;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <h1>无边图片容器，默认定宽定高，宽高充满父级元素</h1>
+    <span class="u-img"><a href="#"><img src="http://nec.netease.com/img/s/1.jpg" alt=""></a></span>
+    <br>
+    <a href="#" class="u-img"><img src="http://nec.netease.com/img/s/1.jpg" alt=""></a>
+    <br>
+    <h1>图片高适应</h1>
+    <a href="#" class="u-img u-img-ha"><img src="http://nec.netease.com/img/s/1.jpg" alt=""></a>
+</body>
+</html>
