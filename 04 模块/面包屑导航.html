@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>面包屑导航</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        .m-crumb{
+            line-height: 1.5 ;
+            overflow: hidden;
+        }
+        .m-crumb ul{
+            margin-left:-20px;
+        }
+        .m-crumb ul li{
+            float: left;
+            word-spacing:normal;
+            white-space:nowrap;
+        }
+        .f-clearfloat:after{
+            content: '.';
+            display: block;
+            clear: both;
+
+            height:0;
+            visibility: hidden;
+        }
+
+        a{
+            color: #666;
+        }
+        /*
+        默认竖线分割
+         */
+        .m-crumb li:before{
+            display: inline-block;
+            width: 20px;
+            content: '|';
+            text-align: center;
+            color: #cccccc;
+        }
+        /**
+        使用
+         */
+        .m-crumb li:before{
+            content: '\3E';
+        }
+    </style>
+</head>
+<body>
+<nav class="m-crumb">
+    <ul class="f-clearfloat">
+        <li><a href="#">面包屑导航，竖线分割</a></li>
+        <li><a href="#">面包屑，可多行</a></li>
+        <li><a href="#">面包屑</a></li>
+        <li>文字</li>
+    </ul>
+</nav>
+</body>
+</html>

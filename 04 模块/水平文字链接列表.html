@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水平文字链接列表</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        .m-list{
+            line-height: 20px;
+            overflow: hidden;
+        }
+        .f-clear:after{
+            content: '.';
+            display: block;
+
+            clear: both;
+            height:0;
+            visibility: hidden;
+        }
+        .m-list ul{
+            margin-left: -10px;
+        }
+        .m-list li{
+            float: left;
+            margin-left: 10px;
+        }
+        .m-list a{
+            text-decoration: none;
+            color:  #3891eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="m-list">
+        <ul class="f-clear">
+            <li><a href="#">列表文字</a></li>
+            <li><a href="#">文字或链接</a></li>
+            <li><a href="#">文字或链接</a></li>
+            <li><a href="#">文字</a></li>
+        </ul>
+    </div>
+</body>
+</html>
