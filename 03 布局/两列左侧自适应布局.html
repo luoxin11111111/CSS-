@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        .clearfix:after {
+            clear: both;
+
+            display: block;
+            content: '.';
+            height: 0;
+            visibility: hidden;
+        }
+        p {
+            padding: 10px;
+            height: 200px;
+        }
+        .g-body{
+            margin: 10px;
+            padding: 10px;
+
+            background: #999;
+        }
+        .g-side{
+            width: 250px;
+            float: right;
+            margin-left: -250px;
+
+            background: powderblue;
+        }
+        .g-main{
+            width:100%;
+            float: left;
+        }
+        .g-mainc{
+            margin-right: 260px;
+            background: blueviolet;
+        }
+    </style>
+</head>
+<body>
+<div class="g-body clearfix">
+    <div class="g-main"><div class="g-mainc"><p>左侧自适应布局</p></div></div>
+    <div class="g-side"><p>右侧定宽</p></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clear{
+    margin:30px auto;
+    width: 600px;
+    padding: 10px;
+    border: 1px deepskyblue solid;
+    background-color: grey;
+}
+
+/*通过伪元素来清除浮动，原理：加上一个div，不显示，设置clear：both*/
+.clearfix:after{
+    /*清除浮动*/
+    display: block;
+    clear: both;
+    /*内容*/
+    content: '.';
+    /*隐藏、去除伪元素带来的影响*/
+    height:0;
+    visibility: hidden;
+
+}
+
+.main{
+    float: left;
+
+    width: 200px;
+    height: 150px;
+
+    background: blueviolet;
+}
+.side{
+    float:left;
+    
+    width:50px;
+    height:200px;
+
+    background: #999;
+}

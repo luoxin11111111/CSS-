@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        p{
+            padding: 10px;
+            height: 200px;
+        }
+        .g-body1{
+            margin: 15px;
+            padding: 10px;
+
+            background: #cccccc;
+        }
+        .clearfix:after{
+            clear: both;
+
+            content: '.';
+            display: block;
+            height:0;
+            visibility: hidden;
+        }
+        .g-side_l1{
+            width: 250px;
+            margin-right: -250px;
+
+            float: left;
+            position: relative;
+
+            background: bisque;
+        }
+        .g-side_r1{
+            width: 300px;
+            margin-left: -300px;
+
+            float: right;
+            position: relative;
+
+            background: turquoise;
+        }
+        .g-main1{
+            width:100%;
+
+            float: left;
+        }
+        .g-main1 p{
+            margin-left: 260px;
+            margin-right: 310px;
+
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+<div class="g-body1 clearfix">
+    <div class="g-side_l1"><p>左侧定宽</p></div>
+    <div class="g-main1"><p>中部自适应</p></div>
+    <div class="g-side_r1"><p>右侧定宽</p></div>
+</div>
+</body>
+</html>
