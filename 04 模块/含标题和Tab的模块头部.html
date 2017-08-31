@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>含标题和Tab的模块头部</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        body{
+            margin: 20px;
+        }
+        header{
+            margin:10px 0;
+        }
+        .m-hd{
+            height: 35px;
+            line-height: 35px;
+
+            border-bottom: 1px solid #ddd;
+        }
+        .m-hd h2,.m-hd ul,.m-hd li{
+            float: left;
+        }
+        .m-hd .more{
+            float: right;
+        }
+        .m-hd h2{
+            margin:0 20px 0 0;
+            font-size: 16px;
+        }
+        .m-hd li{
+            margin-top: -1px;
+            margin-left: 2px;
+        }
+        .m-hd li a {
+            display: block;
+            padding: 0 15px;
+            border: 1px solid #ddd;
+            border-bottom:0;
+            -webkit-border-radius:5px 5px 0 0;
+            -moz-border-radius:5px 5px 0 0;
+            border-radius:5px 5px 0 0;
+            font-size: 14px;
+            background: #f8f8f8;
+            /*background:-webkit-gradient(linear,0% 0%,0% 100%,from(#fdfdfd),to(#f8f8f8));*/
+            background:-webkit-linear-gradient(#fdfdfd,#f8f8f8);
+            background:-moz-linear-gradient(#fdfdfd,#f8f8f8);
+            background:-ms-linear-gradient(#fdfdfd,#f8f8f8);
+            background:linear-gradient(#fdfdfd,#f8f8f8);
+            /*background: -webkit-linear-gradient(#f8f8f8,#fdfdfd);*/
+        }
+        .m-hd li a:hover{
+            background: #ffffff;
+        }
+        .m-hd li.z-current a{
+            background: #ffffff;
+            padding-bottom: 1px;
+            margin-bottom: -1px;
+        }
+
+        /*有背景*/
+        .m-hd1{
+            padding: 10px 10px 0;
+            background-color: #f7f7f7;
+        }
+
+        /*靠右，无缝（ 一 ）*/
+        .m-hd2 ul{
+            float: right;
+        }
+        .m-hd2 li{
+            margin-left: -1px;
+        }
+
+        /*无缝（ 二 ）*/
+        .m-hd3 li{
+            margin-left: -1px;
+        }
+        .m-hd3 li a{
+            -webkit-border-radius:0;
+            -moz-border-radius:0;
+            border-radius:0;
+        }
+        .m-hd3 li:first-child a{
+            border-top-left-radius: 5px;
+        }
+        .m-hd3 li:last-child a{
+            border-top-right-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<header class="m-hd">
+    <h2>标题</h2>
+    <div class="more"><a href="#">更多&raquo;</a></div>
+    <ul>
+        <li class="z-current"><a href="#">默认：居左，不定宽</a></li>
+        <li><a href="#">"标题"和"更多"可删</a></li>
+        <li><a href="#">扩展类以自由组合</a></li>
+        <li><a href="#">标签标签</a></li>
+    </ul>
+</header>
+<header class="m-hd m-hd1">
+    <h2>标题</h2>
+    <div class="more"><a href="#">更多&raquo;</a></div>
+    <ul>
+        <li class="z-current"><a href="#">有背景</a></li>
+        <li><a href="#">标签</a></li>
+        <li><a href="#">标签</a></li>
+        <li><a href="#">标签标签</a></li>
+    </ul>
+</header><header class="m-hd m-hd2">
+    <h2>标题</h2>
+    <div class="more"><a href="#">更多&raquo;</a></div>
+    <ul>
+        <li class="z-current"><a href="#">居右，无缝</a></li>
+        <li><a href="#">标签</a></li>
+        <li><a href="#">标签</a></li>
+        <li><a href="#">标签标签</a></li>
+    </ul>
+</header><header class="m-hd m-hd3">
+    <h2>标题</h2>
+    <div class="more"><a href="#">更多&raquo;</a></div>
+    <ul>
+        <li class="z-current"><a href="#">另一种无缝</a></li>
+        <li><a href="#">标签</a></li>
+        <li><a href="#">标签</a></li>
+        <li><a href="#">标签标签</a></li>
+    </ul>
+</header>
+</body>
+</html>
