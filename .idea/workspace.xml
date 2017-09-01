@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bfead76-4e49-4989-8d3b-b247d7f1fafe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04 模块/含标题和Tab的模块头部.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04 模块/简易表单.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04 模块/上下文图文列表.html" afterPath="$PROJECT_DIR$/04 模块/上下文图文列表.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="含标题和Tab的模块头部.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="含标题和Tab的模块头部.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04 模块/含标题和Tab的模块头部.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+            <state relative-caret-position="421">
+              <caret line="88" column="12" lean-forward="true" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
               <folding>
                 <element signature="e#2387#2394#0" expanded="true" />
                 <element signature="e#2700#2707#0" expanded="true" />
@@ -88,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="简易表单.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="简易表单.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04 模块/简易表单.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -358,12 +355,12 @@
       <workItem from="1503892348048" duration="5655000" />
       <workItem from="1503980042163" duration="583000" />
       <workItem from="1504073146602" duration="206000" />
-      <workItem from="1504083047035" duration="14184000" />
+      <workItem from="1504083047035" duration="14968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47276000" />
+    <option name="totallyTimeSpent" value="48060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +373,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1275" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960127" sideWeight="0.4940476" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -658,19 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04 模块/含标题和Tab的模块头部.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-          <folding>
-            <element signature="e#2387#2394#0" expanded="true" />
-            <element signature="e#2700#2707#0" expanded="true" />
-            <element signature="e#2991#2998#0" expanded="true" />
-            <element signature="e#3284#3291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04 模块/水平文字链接列表.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -684,6 +667,19 @@
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04 模块/含标题和Tab的模块头部.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="88" column="12" lean-forward="true" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+          <folding>
+            <element signature="e#2387#2394#0" expanded="true" />
+            <element signature="e#2700#2707#0" expanded="true" />
+            <element signature="e#2991#2998#0" expanded="true" />
+            <element signature="e#3284#3291#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
