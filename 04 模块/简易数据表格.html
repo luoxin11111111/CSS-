@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简易数据表格</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        table{
+            margin: 20px;
+        }
+        .m-table{
+            table-layout: fixed;
+            width:100%;
+            line-height: 1.5;
+        }
+        .m-table td,.m-table th{
+            padding: 10px;
+            border:1px solid #dddddd;
+        }
+        .m-table th{
+            font-weight:bold;
+        }
+        .m-table tbody tr:nth-child(2n){
+            background: #fafafa;
+        }
+        .m-table tbody tr:hover{
+            background: #f0f0f0;
+        }
+        .cola{
+            width: 100px;
+        }
+        .colb{
+            width: 200px;
+        }
+
+        /*
+        行边框，使用 border-width属性，设置边框的宽度。
+        **/
+        .m-table-row td,.m-table-row th{
+            border-width:0 0 1px;
+        }
+        /**
+        圆角
+         */
+        .m-table-rds{
+            border-collapse:separate;
+            border:1px solid #ddd;
+            border-width:0 1px 1px 0;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        .m-table-rds th,.m-table-rds td{
+            border-width:1px 0 0 1px;
+        }
+        .m-table-rds >:first-child > :first-child > :first-child{
+            border-top-left-radius:5px;
+        }
+        .m-table-rds > :first-child > :first-child > :last-child{
+            border-top-right-radius:5px;
+        }
+        .m-table-rds > :last-child > :last-child > :first-child{
+            border-bottom-left-radius:5px;
+        }
+        .m-table-rds > :last-child > :last-child > :last-child{
+            border-bottom-right-radius:5px;
+        }
+    </style>
+</head>
+<body>
+    <table class="m-table">
+        <thead>
+        <tr>
+            <th class="cola">格边框</th><th>表头</th><th class="cola">表头</th><th class="colb">表头</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="m-table m-table-row">
+        <thead>
+        <tr>
+            <th class="cola">行边框</th><th>表头</th><th class="cola">表头</th><th class="colb">表头</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="m-table m-table-rds">
+        <thead>
+        <tr>
+            <th class="cola">行边框</th><th>表头</th><th class="cola">表头</th><th class="colb">表头</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        <tr>
+            <td>内容</td><td>内容内容内容内容内容内容</td><td>内容</td><td>内容</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
